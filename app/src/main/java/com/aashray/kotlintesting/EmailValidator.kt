@@ -12,6 +12,7 @@ class EmailValidator : TextWatcher {
 
     internal var isValid = false
 
+    
     override fun afterTextChanged(editableText: Editable) {
         isValid = isValidEmail(editableText)
     }
